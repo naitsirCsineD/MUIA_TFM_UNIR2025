@@ -19,6 +19,8 @@ Requisitos extra:
   pip install numpy pandas pydub librosa scipy
 
 FFmpeg debe seguir disponible en `C:/ffmpeg/bin`.
+
+se adhiere explicación del script
 """
 from __future__ import annotations
 
@@ -217,3 +219,4 @@ if __name__ == "__main__":
             total += 1
 
     messagebox.showinfo("Fin", f"Se crearon {total} archivos en\n{out_dir}")
+
